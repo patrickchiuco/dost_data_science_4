@@ -1,4 +1,4 @@
-dataFilePath <- "/home/patrick/Desktop/DOST_DataScience/Module_4/ExData_Plotting1/household_power_consumption.txt"
+dataFilePath <- ""
 g <-read.table(dataFilePath, sep=";", skip=66637, nrow=2880,
                 col.names = c("Date", "Time", "Global_active_power","Global_reactive_power", "Voltage",
                               "Global_intensity", "Sub_metering_1", "Sub_metering_2","Sub_metering_3"))
